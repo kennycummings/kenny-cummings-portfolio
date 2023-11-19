@@ -57,8 +57,9 @@ p {
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
+    height: 600px;
+    width: 75%;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-image: url("../images/AWMA-homepage.png");
     background-size: cover;
