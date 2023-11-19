@@ -5,62 +5,23 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-}
-
-.header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    margin: 0;
-    text-align: left;
-}
-
-.container {
-    display: inline-block;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-}
-
-.hero {
-    height: 800px; /* Set the height for the hero section */
-    background-color: #ccc; /* Set a background color or add a background image */
-}
-
-h2, h3, h4, p {
-    margin: 10px 0;
+    font-family: 'Alegreya Sans', 'Exo', 'Exo Thin', Arial, sans-serif;
 }
 
 .header {
     padding: 15px;
     font-family: 'Exo', 'Alegreya Sans', 'Exo', 'Exo Thin', Arial, serif;
     background-color: #364162;
-    color: whitesmoke
-}
-
-.container {
+    color: whitesmoke;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-  }
+}
 
 .header h1 {
     display: inline-block;
     font-size: 50px;
+    font-weight: 700; /* Adjust the font weight as needed */
 }
 
 .header h1 .seo {
@@ -70,7 +31,6 @@ h2, h3, h4, p {
 .header div {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Alegreya Sans', 'Exo', 'Exo Thin', 'Roboto Thin', serif;
     font-size: 25px;
 }
@@ -84,25 +44,20 @@ h2, h3, h4, p {
     margin-left: 20px;
 }
 
-a {
+ul a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 14px;
-}
-
 .hero {
     height: 600px;
-    width: 75%;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-image: url("../images/AWMA-homepage.png");
     background-size: cover;
     background-position: center center;
 }
-
 
 .float-left {
     float: left;
@@ -115,7 +70,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 15px;
 }
@@ -125,8 +80,11 @@ p {
     clear: both;
     font-family: 'Roboto Thin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
     text-align: center;
+    background-color: #364162; /* Set the background color for the footer */
 }
 
 .footer h2 {
-    font-size: 25px;
+    font-size: 20px;
+    color: whitesmoke; /* Set the text color for the footer heading */
 }
+
