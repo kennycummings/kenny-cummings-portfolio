@@ -5,7 +5,44 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.container {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+.hero {
+    height: 800px; /* Set the height for the hero section */
+    background-color: #ccc; /* Set a background color or add a background image */
+}
+
+h2, h3, h4, p {
+    margin: 10px 0;
 }
 
 .header {
@@ -63,8 +100,9 @@ p {
     margin-bottom: 20px;
     background-image: url("../images/AWMA-homepage.png");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
+
 
 .float-left {
     float: left;
