@@ -23,7 +23,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 50px;
-    font-weight: 700; /* Adjust the font weight as needed */
+    font-weight: 700;
 }
 
 .header h1 .seo {
@@ -53,22 +53,30 @@ ul a {
 
 .hero {
     height: 600px;
-    width: 100%;
+    width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-image: url("../images/AWMA-homepage.png");
     background-size: cover;
-    background-position: center center;
+    background-position: right right;
+}
+
+.main-heading {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .hero2 {
     height: 600px;
-    width: 100%;
+    width: 45%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-image: url("../images/roomservice360-fall-blog.png");
     background-size: cover;
-    background-position: center center;
+    background-position: left left;
 }
 
 .float-left {
@@ -92,13 +100,13 @@ ul a {
     clear: both;
     font-family: 'Roboto Thin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
     text-align: center;
-    background-color: #364162; /* Set the background color for the footer */
+    background-color: #364162;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer h2 {
     font-size: 20px;
-    color: whitesmoke; /* Set the text color for the footer heading */
+    color: whitesmoke;
 }
 
