@@ -80,16 +80,6 @@ ul a {
 
 }
 
-.hero2 {
-    height: 600px;
-    width: 45%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-image: url("../images/roomservice360-fall-blog.png");
-    background-size: cover;
-    background-position: left left;
-}
-
 .float-left {
     float: left;
     margin-right: 20px;
