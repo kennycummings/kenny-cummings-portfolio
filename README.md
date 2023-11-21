@@ -18,7 +18,7 @@ The header links scroll down to Web Content and Development and Copywriting and 
 <br>
 I decided to use my resume bullet points and displayed them using "ul" and "li" tags.
 <br>
-I played with the footer for a while to get the alighnment of each either far left or far right. I did this using "style" in HTML.
+I played with the footer for a while to get the alignment of each either far left or far right. I did this using "style" in HTML.
 <br>
 <br>
 
