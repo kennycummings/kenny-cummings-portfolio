@@ -22,6 +22,7 @@ I played with the footer for a while to get the alignment of each either far lef
 <br>
 <br>
 
+Deployed Application URL: https://kennycummings.github.io/kenny-cummings-portfolio/
 
 <img src="./assets/images/homepage-screenshot-1.png" alt="First screenshot of the homepage">
 
