@@ -12,7 +12,7 @@ I played with negative space by switching the image and text positions with ever
 The header links scroll down to their appropriate sections instantaneously.
 I decided to use my resume bullet points and displayed them using "ul" and "li" tags under my work experience sctions.
 I played with the footer for a while to get the alignment of each either far left or far right. I did this using "style" in HTML.
-On a second passthrough, I added two sections: about me and a list of web development projects, with appropriate linking. Finally, I added a favicon.
+On a second passthrough, I added two sections: about me and a list of web development projects, with appropriate linking.
 <br>
 <br>
 
