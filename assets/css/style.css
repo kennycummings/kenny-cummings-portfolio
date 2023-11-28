@@ -7,11 +7,12 @@
 body {
     text-align: left;
     font-family: 'Exo', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
-    padding: 0 5%;
+    padding: 0 10%;
 }
 
+
 .header {
-    padding: 15px;
+    padding: 20px;
     font-family: 'Exo', 'Alegreya Sans', 'Exo', 'Exo Thin', Arial, serif;
     background-color: #364162;
     color: whitesmoke;
@@ -23,7 +24,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .header h1 .seo {
@@ -108,7 +109,7 @@ ul a {
     padding: 25px;
     clear: both;
     font-family: 'Roboto Thin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
-    text-align: center;
+    text-align: start;
     background-color: #364162;
     margin-left: auto;
     margin-right: auto;
@@ -118,4 +119,3 @@ ul a {
     font-size: 20px;
     color: whitesmoke;
 }
-
