@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Kenny Cummings Portfolio</title>
 
@@ -39,10 +40,33 @@
         footer h2, footer h4, footer h3 {
             margin: 10px 0;
         }
+                /* Added a media query for smaller screens */
+                @media only screen and (max-width: 600px) {
+            .header h1 {
+                font-size: 30px; 
+            }
+            .header div {
+                font-size: 18px;
+            }
+        }
+
+        /* Added media queries for responsive design */
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .text-container, .image-container {
+                width: 100%;
+            }
+
+            .footer {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 
-<!-- Header Container -->
 
 <body>
     <div class="main-container">
@@ -68,8 +92,6 @@
         
 
     </div>
-
-    <!-- Image Container -->
 
     <div class="container">
         <div class="text-container">
@@ -117,8 +139,6 @@
 
     </div>
 
-    <!-- Image Container -->
-
     <div class="container">
         <div class="image-container">
             <img src="./assets/images/AWMA-homepage.png" alt="AWMA Homepage Navigation Edit" class="image">
@@ -146,8 +166,6 @@
         <h2 id="copywriting-and-blogging">Copywriting and Blogging Work Experience</h2>
 
     </div>
-
-    <!-- Image Container -->
 
         <div class="container">
             <div class="text-container">
