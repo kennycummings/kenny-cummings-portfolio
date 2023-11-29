@@ -15,12 +15,10 @@ I played with the footer for a while to get the alignment of each either far lef
 On a second passthrough, I added two sections: about me and a list of web development projects, with appropriate linking.
 <br>
 <br>
-
 Deployed Application URL: https://kennycummings.github.io/kenny-cummings-portfolio/
-
+<br>
+<br>
 <img src="./assets/images/homepage-screenshot-1.png" alt="First screenshot of the homepage">
-
 <br>
 <br>
-
 <img src="./assets/images/homepage-screenshot-2.png" alt="Second screenshot of the homepage">
