@@ -31,22 +31,6 @@ body {
     color: whitesmoke;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: 'Alegreya Sans', 'Exo', 'Exo Thin', 'Roboto Thin', serif;
-    font-size: 25px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
 ul a {
     color: #ffffff;
     text-decoration: none;
