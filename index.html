@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,7 +90,6 @@
     <div class="main-heading">
 
         <h2 id="about-me">About Me</h2>
-
 
     </div>
 
@@ -268,22 +270,32 @@
             <div class="main-heading">
                 <h2 id="contact-me">Contact Me</h2>
             </div>
-    
+
             <left>
                 <h3>Kenny Cummings</h3>
                 <h3>Web Developer | Digital Marketer & Merchandiser</h3>
             </left>
-    
+
             <right>
                 <h4><a href="https://www.linkedin.com/in/kennycummings/" target="_blank"
                         style="color: white;">LinkedIn</a></h4>
                 <h4>kennethccummings@gmail.com</h4>
                 <h4>215.432.0306</h4>
             </right>
-    
+
             <h5>Made by Kenny Cummings</h5>
         </footer>
-    
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- Include jQuery -->
+        <script>
+            // Your custom JavaScript for toggle functionality
+            $(document).ready(function () {
+                $("#navbar-toggler").click(function () {
+                    $("#navbarNav").toggleClass("show");
+                });
+            });
+        </script>
+
     </body>
-    
+
     </html>
