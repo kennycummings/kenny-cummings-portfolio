@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Include Bootstrap CSS -->
     <title>Kenny Cummings Portfolio</title>
 
     <style>
@@ -69,12 +71,11 @@
                 style="width: 75px; height: 75px;">
         </div>
 
-
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Navbar</a>
 
-            <!-- Toggler/collapsibe Button -->
+            <!-- Toggler/collapsible Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -102,8 +103,8 @@
         </nav>
 
         <!-- Navigation square for small screens -->
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
@@ -307,15 +308,12 @@
             <h5>Made by Kenny Cummings</h5>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- Include jQuery -->
-        <script>
-            // Your custom JavaScript for toggle functionality
-            $(document).ready(function () {
-                $("#navbar-toggler").click(function () {
-                    $("#navbarNav").toggleClass("show");
-                });
-            });
-        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <!-- Include jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- Include Popper.js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Include Bootstrap JS -->
 
     </body>
 
