@@ -13,7 +13,6 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Exo', 'Alegreya Sans', 'Exo', 'Exo Thin', Arial, serif;
     background-color: #364162;
     color: whitesmoke;
     display: flex;
@@ -73,16 +72,6 @@ ul a {
 
 }
 
-.float-left {
-    float: left;
-    margin-right: 20px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 20px;
-}
-
 .content {
     width: 100%;
     display: inline-block;
@@ -92,7 +81,6 @@ ul a {
 .footer {
     padding: 25px;
     clear: both;
-    font-family: 'Roboto Thin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
     text-align: start;
     background-color: #364162;
     margin-left: auto;
