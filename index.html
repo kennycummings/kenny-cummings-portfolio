@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha512-DzUGGexhh4z3zI/Z8rW5f+mb/2RYD1KyWsH4ckU3Hh4PTaYzXRXNq0ZwPFhB6GQwzY5RNOO3RBtklFqNrw2/Q=="
+        crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Kenny Cummings Portfolio</title>
 
     <style>
-        /* Remove list styling for the header navigation */
         .header ul {
             list-style: none;
             padding: 0;
@@ -17,14 +22,16 @@
 
         .header li {
             display: inline-block;
-            margin-right: 15px; /* Adjust the margin as needed */
+            margin-right: 15px;
+            /* Adjust the margin as needed */
         }
+
         body {
-        text-align: left;
-        font-family: 'Exo', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
-        margin: 0;
-        padding: 0 2%;
-        box-sizing: border-box;
+            text-align: left;
+            font-family: 'Exo', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            margin: 0;
+            padding: 0 2%;
+            box-sizing: border-box;
         }
 
 
@@ -37,14 +44,18 @@
             margin-top: 20px;
         }
 
-        footer h2, footer h4, footer h3 {
+        footer h2,
+        footer h4,
+        footer h3 {
             margin: 10px 0;
         }
-                /* Added a media query for smaller screens */
-                @media only screen and (max-width: 600px) {
+
+        /* Added a media query for smaller screens */
+        @media only screen and (max-width: 600px) {
             .header h1 {
-                font-size: 30px; 
+                font-size: 30px;
             }
+
             .header div {
                 font-size: 18px;
             }
@@ -56,7 +67,8 @@
                 flex-direction: column;
             }
 
-            .text-container, .image-container {
+            .text-container,
+            .image-container {
                 width: 100%;
             }
 
@@ -72,116 +84,155 @@
     <div class="main-container">
 
         <div class="header">
-            <h1>Kenny Cummings Portfolio</h1>
-            <div class="portfolio-container">
-                <img src="assets/images/Kenny-Cummings-LinkedIn-Photo.png" alt="Kenny Cummings LinkedIn Profile Picture" style="width: 75px; height: 75px;">
+            <h1 class="float-left">Kenny Cummings Portfolio</h1>
+            <div class="portfolio-container float-left">
+                <img src="assets/images/Kenny-Cummings-LinkedIn-Photo.png" alt="Kenny Cummings LinkedIn Profile Picture"
+                    style="width: 75px; height: 75px;">
             </div>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#web-development-projects">Web Development Projects</a></li>
-                <li><a href="#web-content-and-development">Web Content and Development</a></li>
-                <li><a href="#copywriting-and-blogging">Copywriting and Blogging</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
+
+
+            <!-- Collapsible navigation for small screens -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="#about-me">About Me</a></li>
+                    <li><a class="nav-link" href="#web-development-projects">Web Development Projects</a></li>
+                    <li><a class="nav-link" href="#web-content-and-development">Web Content and Development</a></li>
+                    <li><a class="nav-link" href="#copywriting-and-blogging">Copywriting and Blogging</a></li>
+                    <li><a class="nav-link" href="#contact-me">Contact Me</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Navigation square for small screens -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+
+        <div class="main-heading">
+
+            <h2 id="about-me">About Me</h2>
+
+
+        </div>
+
+        <div class="container">
+            <div class="text-container">
+                <p>
+                    Results-driven Web Developer with a diverse background encompassing 6 years of digital marketing,
+                    ecommerce, product management, and category management experience, coupled with 3 years of web
+                    development expertise. Proficient in managing the entire product life cycle, implementing
+                    promotions, and driving sales growth. Adept at utilizing CMS, PIM, and Microsoft Excel for effective
+                    content management. Demonstrated success as an Amazon and eBay seller. Highly analytical and
+                    adaptable, leveraging data analysis to provide actionable insights for product management. Proven
+                    track record of enhancing site visibility and Google performance through the implementation of
+                    innovative content strategies.
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/images/Kenny-Cummings-LinkedIn-Photo.png" alt="Kenny Cummings LinkedIn Profile Picture"
+                    style="width: 300px; height: 300px; class=" image">
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="main-container">
+
+            <div class="web-development-projects">
+
+                <h2 id="web-development-projects">Web Development Projects</h2>
+
+                <br>
+                <br>
+
+                <a href="https://kennycummings.github.io/random-password-generator/" target="_blank">
+                    <img src="assets/images/random-password-generator-home.png" alt="Random Password Generator"
+                        style="width: 100%;">
+                </a>
+
+                <br>
+                <br>
+
+                <p>
+                    <b>Check out my Random Password Generator project:</b>
+                    <b><a href="https://kennycummings.github.io/random-password-generator/" target="_blank">Random
+                            Password Generator</a></b>
+                </p>
+
+            </div>
+
         </div>
 
 
-    <div class="main-heading">
+        <div class="main-heading">
 
-        <h2 id="about-me">About Me</h2>
-        
+            <h2 id="web-content-and-development">Web Content and Development Work Experience</h2>
 
-    </div>
-
-    <div class="container">
-        <div class="text-container">
-            <p>
-                Results-driven Web Developer with a diverse background encompassing 6 years of digital marketing, ecommerce, product management, and category management experience, coupled with 3 years of web development expertise. Proficient in managing the entire product life cycle, implementing promotions, and driving sales growth. Adept at utilizing CMS, PIM, and Microsoft Excel for effective content management. Demonstrated success as an Amazon and eBay seller. Highly analytical and adaptable, leveraging data analysis to provide actionable insights for product management. Proven track record of enhancing site visibility and Google performance through the implementation of innovative content strategies.
-            </p>
         </div>
-        <div class="image-container">
-            <img src="assets/images/Kenny-Cummings-LinkedIn-Photo.png" alt="Kenny Cummings LinkedIn Profile Picture" style="width: 300px; height: 300px; class="image">
-        </div>
-    </div>
-        
-    <br>
-    <br>
 
-    <div class="main-container">
-        
-        <div class="web-development-projects">
-
-            <h2 id="web-development-projects">Web Development Projects</h2>
-
-            <br>
-            <br>
-    
-            <a href="https://kennycummings.github.io/random-password-generator/" target="_blank">
-                <img src="assets/images/random-password-generator-home.png" alt="Random Password Generator" style="width: 100%;">
-            </a>
-            
-            <br>
-            <br>
-
-            <p>
-                <b>Check out my Random Password Generator project:</b>
-                <b><a href="https://kennycummings.github.io/random-password-generator/" target="_blank">Random Password Generator</a></b>
-            </p>
-    
-        </div>
-    
-    </div>
-
-
-    <div class="main-heading">
-
-        <h2 id="web-content-and-development">Web Content and Development Work Experience</h2>
-
-    </div>
-
-    <div class="container">
-        <div class="image-container">
-            <img src="./assets/images/AWMA-homepage.png" alt="AWMA Homepage Navigation Edit" class="image">
-        </div>
-        <div class="text-container">
-            <h3>AWMA - Web Content Specialist</h3>
-            <p> 
+        <div class="container">
+            <div class="image-container">
+                <img src="./assets/images/AWMA-homepage.png" alt="AWMA Homepage Navigation Edit" class="image">
+            </div>
+            <div class="text-container">
+                <h3>AWMA - Web Content Specialist</h3>
+                <p>
                 <ul>
-                    <li>Achieved an impressive 100% increase in clicks, impressions, and click-through-rate over a 6-month period by implementing strategic enhancements such as new copy, metadata optimization, navigation improvements, and best SEO practices.</li>
-                    <li>Led a critical project overseeing the seamless website host migration from Shopify to Magento and designing a captivating new homepage for the Magento site.</li>
-                    <li> Nurtured vital business partnerships with NetElixir to strengthen SEO, site mapping, and content strategies.</li>
-                    <li> Spearheaded website content and app management, ensuring content accuracy and resolving technical issues.</li>
-                    <li>Proficiently utilized Google Analytics, Google My Business, and Google Ads to drive data-informed decisions and executed successful PPC campaigns with NetElixir.</li>
+                    <li>Achieved an impressive 100% increase in clicks, impressions, and click-through-rate over a
+                        6-month period by implementing strategic enhancements such as new copy, metadata optimization,
+                        navigation improvements, and best SEO practices.</li>
+                    <li>Led a critical project overseeing the seamless website host migration from Shopify to Magento
+                        and designing a captivating new homepage for the Magento site.</li>
+                    <li> Nurtured vital business partnerships with NetElixir to strengthen SEO, site mapping, and
+                        content strategies.</li>
+                    <li> Spearheaded website content and app management, ensuring content accuracy and resolving
+                        technical issues.</li>
+                    <li>Proficiently utilized Google Analytics, Google My Business, and Google Ads to drive
+                        data-informed decisions and executed successful PPC campaigns with NetElixir.</li>
                 </ul>
                 <b>Source: https://www.awma.com/</b>
-            </p>
+                </p>
+
+            </div>
+        </div>
+
+        <h4>
+            <center>Improved navigation to achieve an impressive 100% increase in clicks, impressions, and
+                click-through-rate over a 6-month period.</center>
+        </h4>
+
+        <div class="main-heading">
+
+            <h2 id="copywriting-and-blogging">Copywriting and Blogging Work Experience</h2>
 
         </div>
-    </div>
-
-    <h4><center>Improved navigation to achieve an impressive 100% increase in clicks, impressions, and click-through-rate over a 6-month period.</center></h4>
-
-    <div class="main-heading">
-
-        <h2 id="copywriting-and-blogging">Copywriting and Blogging Work Experience</h2>
-
-    </div>
 
         <div class="container">
             <div class="text-container">
                 <h3>room service 360 - Ecommerce Content Specialist</h3>
                 <p>
-                    <ul>
-                        <li>Managed luxury furniture brands including Porada, Bonaldo, Gamma Arredamenti, and Nicoline Italia, contributing to a significant expansion of product offerings.</li>
-                        <li>Introduced over 500 new products, skillfully creating and maintaining product detail pages in Magento.</li>
-                        <li>Excelled in content curation, meticulously aligning published content with brand identity and best SEO practices.</li>
-                        <li>Utilized Adobe Photoshop for image editing and PDF spec sheet creation, ensuring top-notch product presentation.</li>
-                        <li>Played a pivotal role in configuring product filters and sorting mechanisms to enhance user experience.</li>
-                        <li>Demonstrated strong attention to detail by consistently updating product data and pricing for accuracy.</li>
-                        <li>Provided valuable customer support, offering design expertise that directly led to over $100,000 in sales.</li>
-                        <li>Authored SEO-optimized blog content using WordPress.
-                    </ul>
-                    <b>Source: https://www.roomservice360.com/inspiration/the-changing-of-the-seasons-fall-is-here/</b>
+                <ul>
+                    <li>Managed luxury furniture brands including Porada, Bonaldo, Gamma Arredamenti, and Nicoline
+                        Italia, contributing to a significant expansion of product offerings.</li>
+                    <li>Introduced over 500 new products, skillfully creating and maintaining product detail pages in
+                        Magento.</li>
+                    <li>Excelled in content curation, meticulously aligning published content with brand identity and
+                        best SEO practices.</li>
+                    <li>Utilized Adobe Photoshop for image editing and PDF spec sheet creation, ensuring top-notch
+                        product presentation.</li>
+                    <li>Played a pivotal role in configuring product filters and sorting mechanisms to enhance user
+                        experience.</li>
+                    <li>Demonstrated strong attention to detail by consistently updating product data and pricing for
+                        accuracy.</li>
+                    <li>Provided valuable customer support, offering design expertise that directly led to over $100,000
+                        in sales.</li>
+                    <li>Authored SEO-optimized blog content using WordPress.
+                </ul>
+                <b>Source: https://www.roomservice360.com/inspiration/the-changing-of-the-seasons-fall-is-here/</b>
                 </p>
             </div>
             <div class="image-container">
@@ -189,7 +240,9 @@
             </div>
         </div>
 
-    <h4><center>Authored SEO-optimized blog content using WordPress.</center></h4>
+        <h4>
+            <center>Authored SEO-optimized blog content using WordPress.</center>
+        </h4>
 
         <style>
             footer {
@@ -197,61 +250,81 @@
                 flex-wrap: wrap;
                 justify-content: space-between;
             }
-    
-            left, right, center {
-                flex: 0 1 48%; /* Adjust the width as needed */
+
+            left,
+            right,
+            center {
+                flex: 0 1 48%;
+                /* Adjust the width as needed */
                 display: flex;
                 flex-direction: column;
             }
-    
+
             left {
                 text-align: left;
             }
-    
+
             right {
                 text-align: right;
             }
-    
+
             center {
                 text-align: center;
             }
-    
-            left h2, left h3, right h4, center h5 {
+
+            left h2,
+            left h3,
+            right h4,
+            center h5 {
                 margin: 0;
             }
-    
-            left h3, right h4, center h5 {
+
+            left h3,
+            right h4,
+            center h5 {
                 width: 100%;
             }
-
         </style>
-    </head>
-    <body>
-    
-    <footer>
 
-        <div class="main-heading">
+        </head>
 
-            <h2 id="contact-me">Contact Me</h2>
-            
-    
-        </div>
-    
-        <left>
-            <h3>Kenny Cummings</h3>
-            <h3>Web Developer | Digital Marketer & Merchandiser</h3>
-        </left>
-    
-        <right>
-            <h4><a href="https://www.linkedin.com/in/kennycummings/" target="_blank" style="color: white;">LinkedIn</a></h4>
-            <h4>kennethccummings@gmail.com</h4>
-            <h4>215.432.0306</h4>
-        </right>
+        <body>
 
-        <h5>Made by Kenny Cummings</h5>
-    
-    </footer>
-    
-    </body>
-    </html>
-    
+            <footer>
+
+                <div class="main-heading">
+
+                    <h2 id="contact-me">Contact Me</h2>
+
+
+                </div>
+
+                <left>
+                    <h3>Kenny Cummings</h3>
+                    <h3>Web Developer | Digital Marketer & Merchandiser</h3>
+                </left>
+
+                <right>
+                    <h4><a href="https://www.linkedin.com/in/kennycummings/" target="_blank"
+                            style="color: white;">LinkedIn</a></h4>
+                    <h4>kennethccummings@gmail.com</h4>
+                    <h4>215.432.0306</h4>
+                </right>
+
+                <h5>Made by Kenny Cummings</h5>
+
+            </footer>
+
+            <!-- Bootstrap JS and Popper.js -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha512-fNVTxNO0wjrt8Zac1eNYewtHqaFko7JAgX7vD/Qgmkz4bd/z9o+jwSk2UJdhZ7WrnJ4xmNbl3wRijZwk3PYCQ=="
+                crossorigin="anonymous"></script>
+
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha512-eJ7nI0IzvydDvN94T+WIrQekvXlF0rCjGAfvJhD8zL6DHjRZ+smvOgmZRVbQJZGZHxYxNE8cEKA+VjFjwC/Jw=="
+                crossorigin="anonymous"></script>
+
+        </body>
+
+</html>
