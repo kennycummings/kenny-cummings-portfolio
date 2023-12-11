@@ -110,9 +110,7 @@
     </div>
 
     <div class="main-heading">
-
         <h2 id="about-me">About Me</h2>
-
     </div>
 
     <div class="container">
@@ -130,7 +128,7 @@
         </div>
         <div class="image-container">
             <img src="assets/images/Kenny-Cummings-LinkedIn-Photo.png" alt="Kenny Cummings LinkedIn Profile Picture"
-                style="width: 300px; height: 300px; class=" image">
+                style="width: 300px; height: 300px;" class="image">
         </div>
     </div>
 
@@ -143,8 +141,26 @@
 
             <h2 id="web-development-projects">Web Development Projects</h2>
 
+            <h3> Your Nutrition Radar </h3>
+
+            <a href="https://mykhailozakh.github.io/Your-Nutrition-Radar/#" target="_blank">
+                <img src="assets/images/Your-Nutrition-Radar-Home.png" alt="Your Nutrition Radar"
+                    style="width: 100%;">
+            </a>
+
             <br>
             <br>
+
+            <p>
+                <b>Check out my diet and nutrition app:</b>
+                <b><a href="https://mykhailozakh.github.io/Your-Nutrition-Radar/#" target="_blank">Your Nutrition Radar</a></b>
+            </p>
+
+
+            <br>
+            <br>
+
+            <h3> Random Password Generator </h3>
 
             <a href="https://kennycummings.github.io/random-password-generator/" target="_blank">
                 <img src="assets/images/random-password-generator-home.png" alt="Random Password Generator"
@@ -178,20 +194,20 @@
         <div class="text-container">
             <h3>AWMA - Web Content Specialist</h3>
             <p>
-            <ul>
-                <li>Achieved an impressive 100% increase in clicks, impressions, and click-through-rate over a
-                    6-month period by implementing strategic enhancements such as new copy, metadata optimization,
-                    navigation improvements, and best SEO practices.</li>
-                <li>Led a critical project overseeing the seamless website host migration from Shopify to Magento
-                    and designing a captivating new homepage for the Magento site.</li>
-                <li> Nurtured vital business partnerships with NetElixir to strengthen SEO, site mapping, and
-                    content strategies.</li>
-                <li> Spearheaded website content and app management, ensuring content accuracy and resolving
-                    technical issues.</li>
-                <li>Proficiently utilized Google Analytics, Google My Business, and Google Ads to drive
-                    data-informed decisions and executed successful PPC campaigns with NetElixir.</li>
-            </ul>
-            <b>Source: https://www.awma.com/</b>
+                <ul>
+                    <li>Achieved an impressive 100% increase in clicks, impressions, and click-through-rate over a
+                        6-month period by implementing strategic enhancements such as new copy, metadata optimization,
+                        navigation improvements, and best SEO practices.</li>
+                    <li>Led a critical project overseeing the seamless website host migration from Shopify to Magento
+                        and designing a captivating new homepage for the Magento site.</li>
+                    <li> Nurtured vital business partnerships with NetElixir to strengthen SEO, site mapping, and
+                        content strategies.</li>
+                    <li> Spearheaded website content and app management, ensuring content accuracy and resolving
+                        technical issues.</li>
+                    <li>Proficiently utilized Google Analytics, Google My Business, and Google Ads to drive
+                        data-informed decisions and executed successful PPC campaigns with NetElixir.</li>
+                </ul>
+                <b>Source: https://www.awma.com/</b>
             </p>
 
         </div>
@@ -212,24 +228,24 @@
         <div class="text-container">
             <h3>room service 360 - Ecommerce Content Specialist</h3>
             <p>
-            <ul>
-                <li>Managed luxury furniture brands including Porada, Bonaldo, Gamma Arredamenti, and Nicoline
-                    Italia, contributing to a significant expansion of product offerings.</li>
-                <li>Introduced over 500 new products, skillfully creating and maintaining product detail pages in
-                    Magento.</li>
-                <li>Excelled in content curation, meticulously aligning published content with brand identity and
-                    best SEO practices.</li>
-                <li>Utilized Adobe Photoshop for image editing and PDF spec sheet creation, ensuring top-notch
-                    product presentation.</li>
-                <li>Played a pivotal role in configuring product filters and sorting mechanisms to enhance user
-                    experience.</li>
-                <li>Demonstrated strong attention to detail by consistently updating product data and pricing for
-                    accuracy.</li>
-                <li>Provided valuable customer support, offering design expertise that directly led to over $100,000
-                    in sales.</li>
-                <li>Authored SEO-optimized blog content using WordPress.
-            </ul>
-            <b>Source: https://www.roomservice360.com/inspiration/the-changing-of-the-seasons-fall-is-here/</b>
+                <ul>
+                    <li>Managed luxury furniture brands including Porada, Bonaldo, Gamma Arredamenti, and Nicoline
+                        Italia, contributing to a significant expansion of product offerings.</li>
+                    <li>Introduced over 500 new products, skillfully creating and maintaining product detail pages in
+                        Magento.</li>
+                    <li>Excelled in content curation, meticulously aligning published content with brand identity and
+                        best SEO practices.</li>
+                    <li>Utilized Adobe Photoshop for image editing and PDF spec sheet creation, ensuring top-notch
+                        product presentation.</li>
+                    <li>Played a pivotal role in configuring product filters and sorting mechanisms to enhance user
+                        experience.</li>
+                    <li>Demonstrated strong attention to detail by consistently updating product data and pricing for
+                        accuracy.</li>
+                    <li>Provided valuable customer support, offering design expertise that directly led to over $100,000
+                        in sales.</li>
+                    <li>Authored SEO-optimized blog content using WordPress.</li>
+                </ul>
+                <b>Source: https://www.roomservice360.com/inspiration/the-changing-of-the-seasons-fall-is-here/</b>
             </p>
         </div>
         <div class="image-container">
@@ -248,73 +264,71 @@
             justify-content: space-between;
         }
 
-        left,
-        right,
-        center {
+        .left,
+        .right,
+        .center {
             flex: 0 1 48%;
             /* Adjust the width as needed */
             display: flex;
             flex-direction: column;
         }
 
-        left {
+        .left {
             text-align: left;
         }
 
-        right {
+        .right {
             text-align: right;
         }
 
-        center {
+        .center {
             text-align: center;
         }
 
-        left h2,
-        left h3,
-        right h4,
-        center h5 {
+        .left h2,
+        .left h3,
+        .right h4,
+        .center h5 {
             margin: 0;
         }
 
-        left h3,
-        right h4,
-        center h5 {
+        .left h3,
+        .right h4,
+        .center h5 {
             width: 100%;
         }
     </style>
 
-    </head>
+    <footer>
 
-    <body>
+        <div class="main-heading">
+            <h2 id="contact-me">Contact Me</h2>
+        </div>
 
-        <footer>
+        <div class="left">
+            <h4>Kenny Cummings</h4>
+            <h4>Web Developer | Digital Marketer & Merchandiser</h4>
+        </div>
 
-            <div class="main-heading">
-                <h2 id="contact-me">Contact Me</h2>
-            </div>
+        <div class="right">
+            <h5><a href="https://www.linkedin.com/in/kennycummings/" target="_blank"
+                    style="color: white;">LinkedIn</a></h5>
+            <h5>kennethccummings@gmail.com</h5>
+            <h5>215.432.0306</h5>
+        </div>
 
-            <left>
-                <h4>Kenny Cummings</h4>
-                <h4>Web Developer | Digital Marketer & Merchandiser</h4>
-            </left>
-
-            <right>
-                <h5><a href="https://www.linkedin.com/in/kennycummings/" target="_blank"
-                        style="color: white;">LinkedIn</a></h5>
-                <h5>kennethccummings@gmail.com</h5>
-                <h5>215.432.0306</h5>
-            </right>
-
+        <div class="center">
             <h6>Made by Kenny Cummings</h6>
-        </footer>
+        </div>
+    </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <!-- Include jQuery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <!-- Include Popper.js -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Include jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Include Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap JS -->
 
-    </body>
+</body>
 
 </html>
