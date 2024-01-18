@@ -10,20 +10,25 @@ body {
     padding: 0 10%;
 }
 
+a:hover {
+    background-color: #E43F5A;
+}
 
 .header {
     padding: 20px;
-    background-color: #212529;
+    background-color: #1B1B2F;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .header h1 {
     display: inline-block;
     font-size: 50px;
     font-weight: 600;
+    color: whitesmoke;
 }
 
 .header h1 .seo {
@@ -82,7 +87,7 @@ ul a {
     padding: 25px;
     clear: both;
     text-align: start;
-    background-color: #212529;
+    background-color: #1F4068;
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,4 +95,28 @@ ul a {
 .footer h2 {
     font-size: 20px;
     color: whitesmoke;
+}
+
+.left {
+    background-color: #1B1B2F;
+}
+
+.right {
+    background-color: #1B1B2F;
+}
+
+.center {
+    background-color: #1B1B2F;
+}
+
+.navbar-toggler-icon {
+    background-color: #E43F5A;
+}
+
+.navbar-toggler {
+    background-color: #E43F5A;
+}
+
+.collapsibleNavbar {
+    background-color: #E43F5A;
 }
